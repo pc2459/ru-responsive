@@ -1,0 +1,11 @@
+1. What browsers support Media Queries? 
+
+IE 9+ (but not IE 8!), Firefox 33+, Safari 7.1+, Opera 26+, Chrome 31+, and mobile browsers. 
+
+2. What is a breakpoint?
+
+A point where websites start to "break,", i.e. look weird, or have hampered experience, such as when the layout gets too small or too large. 
+
+3. What performance considerations are relevant to Responsive Web Design?
+
+ 

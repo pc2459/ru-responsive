@@ -10,7 +10,21 @@ h1, h2, h3, h4, h5, h6, p, span, ul, ol, figure, section {
 
 body {
 	background-color: #fff;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+
+	padding: 0.5em 0 0.5em 20px;
+
+}
+
+p {
+
+	padding: 1em 20px;
+}
+
 
 #header, #nav, section {
 	width: 960px;
@@ -67,10 +81,6 @@ section {
 	margin-bottom: 20px;
 }
 
-section p {
-
-	padding: 20px;
-}
 
 section img {
 
@@ -78,7 +88,6 @@ section img {
 }
 
 .gallery {
-	/*background-color: rgba(9,9,9,0.8);*/
 	text-align: center;
 }
 
@@ -145,7 +154,7 @@ section img {
 	}
 
 	#nav ul li:first-child {
-	border-radius: 5px 5px 0px 0px;
+		border-radius: 5px 5px 0px 0px;
 }
 
 }
