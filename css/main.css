@@ -1,0 +1,109 @@
+*{
+
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, ul, ol, figure, section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+#header, #nav, section {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#nav {
+	width: 100%;
+	margin: 20px 0;
+}
+
+#nav ul {
+	list-style-type: none;
+	background-color: #2c3e50;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+}
+
+#nav ul li {
+	padding: 0 40px;
+	float: left;
+	display: inline;
+}
+
+#nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav ul li a:hover {
+	color: #c0392b;
+}
+
+#nav .active {
+	background-color: #c0392b;
+}
+
+#nav .active a:hover {
+	color: #2c3e50;
+}
+
+
+#nav ul li:first-child {
+	border-radius: 5px 0 0 5px;
+}
+
+section {
+
+	border-radius: 5px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+section p {
+
+	padding: 20px;
+}
+
+section img {
+
+	max-width: 100%;
+}
+
+.gallery {
+	/*background-color: rgba(9,9,9,0.8);*/
+	text-align: center;
+}
+
+.gallery figure {
+	padding-right:36px;
+	display: inline;
+}
+
+
+/* RESPONSIVE */
+
+@media all and (max-width: 960px){
+
+	body {
+		padding: 20px;
+	}
+
+	#header, section {
+		max-width: 100%;
+		
+	}
+
+	.gallery figure img {
+
+		max-width: 150px;
+	}
+
+}
