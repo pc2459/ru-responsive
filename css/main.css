@@ -83,8 +83,14 @@ section img {
 }
 
 .gallery figure {
-	padding-right:36px;
+	padding-right:28px;
 	display: inline;
+
+}
+
+.gallery figure img {
+	padding: 3px;
+	border: 1px solid #cccccc;
 }
 
 
@@ -102,8 +108,27 @@ section img {
 	}
 
 	.gallery figure img {
-
 		max-width: 150px;
 	}
 
 }
+
+@media all and (max-width: 780px){
+
+
+	.gallery {
+		text-align: center;
+	}
+
+	.gallery figure {
+		display: inline-block;
+		margin: 0.5em;
+	}
+
+	.gallery figure img {
+		max-width: 100%;
+
+	}
+
+}
+
