@@ -16,20 +16,20 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 
-	padding: 0.5em 0 0.5em 20px;
+	padding: 0.5em 0 0.5em 0;
 
 }
 
 p {
 
-	padding: 1em 20px;
+	padding: 1em 0;
 }
 
 
-#header, #nav, section {
+#header, section {
 	width: 960px;
 	margin: 0 auto;
-	background-color: #fff;
+	background-color: #ff;
 }
 
 #nav {
@@ -79,6 +79,7 @@ section {
 	overflow: hidden;
 	margin-top: 20px;
 	margin-bottom: 20px;
+
 }
 
 
@@ -92,7 +93,7 @@ section img {
 }
 
 .gallery figure {
-	padding-right:28px;
+	padding-right:25px;
 	display: inline;
 
 }
@@ -100,6 +101,17 @@ section img {
 .gallery figure img {
 	padding: 3px;
 	border: 1px solid #cccccc;
+}
+
+.col-2 {
+	width: 75%;
+	padding-right: 4%;
+	float: left; 
+}
+
+.col-1 {
+	width: 20%;
+	float: left;
 }
 
 
@@ -137,6 +149,11 @@ section img {
 	.gallery figure img {
 		max-width: 100%;
 
+	}
+
+	.col-2, .col-1 {
+		width: 100%;
+		float: none;
 	}
 
 }
