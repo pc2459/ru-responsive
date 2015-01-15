@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6, p, span, ul, ol, figure, section {
 
 body {
 	background-color: #fff;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: Lato, Arial, sans-serif;
 	font-size: 14px;
 }
 
@@ -21,7 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-
+	font-size: 1em;
+	line-height: 1.75em;
 	padding: 1em 0;
 }
 
@@ -39,22 +40,27 @@ p {
 
 #nav ul {
 	list-style-type: none;
-	background-color: #2c3e50;
+	background-color: #000;
 	height: 40px;
 	line-height: 40px;
 	border-radius: 5px;
+
 }
 
 #nav ul li {
 	padding: 0 40px;
 	float: left;
 	display: inline;
+	font-size: 0.8em;
+	text-transform: uppercase;
+
 }
 
 #nav ul li a {
 	color: #fff;
 	text-decoration: none;
 }
+
 
 #nav ul li a:hover {
 	color: #c0392b;
@@ -65,7 +71,7 @@ p {
 }
 
 #nav .active a:hover {
-	color: #2c3e50;
+	color: #000;
 }
 
 
@@ -75,11 +81,16 @@ p {
 
 section {
 
-	border-radius: 5px;
+
 	overflow: hidden;
 	margin-top: 20px;
 	margin-bottom: 20px;
 
+}
+
+.section-border {
+	border-top: 3px solid #000;
+	padding-top: 10px;
 }
 
 
@@ -101,6 +112,14 @@ section img {
 .gallery figure img {
 	padding: 3px;
 	border: 1px solid #cccccc;
+}
+
+.img-gallery {
+	margin: 0;
+	padding: 0;
+}
+.img-gallery li {
+	display: inline;
 }
 
 .col-2 {
