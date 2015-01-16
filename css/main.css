@@ -193,9 +193,15 @@ section img {
 		text-align: center;
 	}
 
-	.gallery figure {
-		display: inline-block;
-		margin: 0.5em;
+	.column {
+		float: none;
+		display: block;
+		margin: 0;
+	}
+
+	.grid-3 {
+		width: 100%;
+
 	}
 
 	.gallery figure img {
