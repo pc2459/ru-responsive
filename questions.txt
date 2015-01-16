@@ -8,4 +8,10 @@ A point where websites start to "break,", i.e. look weird, or have hampered expe
 
 3. What performance considerations are relevant to Responsive Web Design?
 
+- Not punishing users of older browsers that don't support certain features: progressive web design. Use tools like modernizr to help code progressively.
+
+- Speed of networks, especially for those on mobile.
+
+
+
  
