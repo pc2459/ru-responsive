@@ -144,7 +144,6 @@ section img {
 }
 
 
-
 /* RESPONSIVE */
 
 @media screen and (min-width: 1190px){
@@ -191,13 +190,17 @@ section img {
 		float: none;
 		display: block;
 		margin: 0;
+		padding-top: 20px;
+	}
+
+	.column:first-child{
+		padding-top: 0;
 	}
 
 	.grid-4 {
 		width: 100%;
 	}
 }
-
 
 @media screen and (max-width: 700px){
 
