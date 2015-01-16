@@ -1,3 +1,4 @@
+/* BASE STYLING */
 *{
 
 	box-sizing: border-box;
@@ -6,6 +7,7 @@
 html {
 	font-size: 14px;
 }
+
 h1, h2, h3, h4, h5, h6, p, span, ul, ol, figure, section {
 	margin: 0;
 	padding: 0;
@@ -30,11 +32,15 @@ p {
 }
 
 
+/* LAYOUT */
+
 #header, section {
 	width: 960px;
 	margin: 0 auto;
 	background-color: #fff;
 }
+
+/* TITLE AND NAVIGATION */
 
 .title{
 	padding-bottom: 0;
@@ -86,33 +92,31 @@ p {
 	border-radius: 5px 0 0 5px;
 }
 
+/* SECTIONS */
+
 section {
 	overflow: hidden;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
 }
 
 .section-border {
 	border:0;
 	max-width: 80%;
 	width: 500px;
-	border-bottom: 1px solid #CCC;
-	
+	border-bottom: 1px solid #CCC;	
 }
-
 
 section img {
 	max-width: 100%;
-	max-height: 100%;
 }
+
+/* GALLERY AND GRID */
 
 .gallery {
 	text-align: center;
 	padding: 0;
-	
 }
-
 
 
 .column {
@@ -128,12 +132,6 @@ section img {
 .grid-3 {
 	padding: 0px;
 	width: 22%;
-
-}
-
-.gallery figure img {
-/*	padding: 3px;
-	border: 1px solid #cccccc;*/
 }
 
 .img-gallery {
@@ -145,16 +143,11 @@ section img {
 	display: inline;
 }
 
-.col-2, .col-1 {
-		width: 100%;
-		float: none;
-	}
-
 
 
 /* RESPONSIVE */
 
-@media screen and (min-width: 1190px){
+@media all and (min-width: 1190px){
 
 	.col-2 {
 		width: 75%;
@@ -166,11 +159,9 @@ section img {
 		width: 20%;
 		float: left;
 	}
-
-
 }
 
-@media screen and (max-width: 960px){
+@media all and (max-width: 960px){
 
 	body {
 		padding: 20px;
@@ -178,7 +169,6 @@ section img {
 
 	#header, section {
 		max-width: 100%;
-		
 	}
 
 	.gallery figure img {
@@ -187,10 +177,14 @@ section img {
 
 }
 
-@media screen and (max-width: 780px){
+@media all and (max-width: 750px){
 
 	.gallery {
 		text-align: center;
+	}
+
+	.gallery figure img {
+		max-width: 100%;
 	}
 
 	.column {
@@ -201,17 +195,11 @@ section img {
 
 	.grid-3 {
 		width: 100%;
-
-	}
-
-	.gallery figure img {
-		max-width: 100%;
-
 	}
 }
 
 
-@media screen and (max-width: 700px){
+@media all and (max-width: 700px){
 
 	#nav ul {
 		height: auto;
@@ -224,7 +212,7 @@ section img {
 
 	#nav ul li:first-child {
 		border-radius: 5px 5px 0px 0px;
-}
+	}
 
 }
 
