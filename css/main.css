@@ -129,7 +129,7 @@ section img {
 }
 
 
-.grid-3 {
+.grid-4 {
 	padding: 0px;
 	width: 22%;
 }
@@ -193,7 +193,7 @@ section img {
 		margin: 0;
 	}
 
-	.grid-3 {
+	.grid-4 {
 		width: 100%;
 	}
 }
